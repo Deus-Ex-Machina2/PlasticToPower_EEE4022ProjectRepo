@@ -1,0 +1,779 @@
+{
+  "workflow": "partial_insertion",
+  "date": "2026-10-16T16:35:04",
+  "cavity": {
+    "shape": "cylindrical",
+    "mode": "TM010",
+    "a_mm": 46.833,
+    "h_mm": 35.0
+  },
+  "sample_radius_mm": 2.35,
+  "resonance_method": "half_power_norm",
+  "use_unloaded_q": true,
+  "holder_corrected": true,
+  "holder_series_date": "2026-10-12T13:49:44",
+  "empty_cavity": {
+    "f0_Hz": 2447979065.7454677,
+    "BW_Hz": 1356992.6638816467,
+    "Q": 1803.9736919012364
+  },
+  "measured_per_depth": {
+    "5.000": {
+      "f0_Hz": 2440678715.9083824,
+      "BW_Hz": 1665266.6715826655,
+      "Q": 1465.6383614455979
+    },
+    "7.222": {
+      "f0_Hz": 2437362376.338882,
+      "BW_Hz": 1923553.0757554383,
+      "Q": 1267.114698866136
+    },
+    "9.444": {
+      "f0_Hz": 2433324002.992985,
+      "BW_Hz": 2263335.7629399975,
+      "Q": 1075.1051800781772
+    },
+    "11.667": {
+      "f0_Hz": 2428357115.6964974,
+      "BW_Hz": 2709303.9410497854,
+      "Q": 896.3029503273715
+    },
+    "13.889": {
+      "f0_Hz": 2423280894.2034965,
+      "BW_Hz": 3187587.047416345,
+      "Q": 760.2242254584556
+    },
+    "16.111": {
+      "f0_Hz": 2419357457.476586,
+      "BW_Hz": 3575651.3917750427,
+      "Q": 676.6200595062921
+    },
+    "18.333": {
+      "f0_Hz": 2414906991.949236,
+      "BW_Hz": 4002323.6402035444,
+      "Q": 603.376240664641
+    },
+    "20.556": {
+      "f0_Hz": 2409787410.523416,
+      "BW_Hz": 4577949.967601977,
+      "Q": 526.3900714462617
+    },
+    "22.778": {
+      "f0_Hz": 2404087636.1490464,
+      "BW_Hz": 5101672.363126534,
+      "Q": 471.2352077967848
+    },
+    "25.000": {
+      "f0_Hz": 2398087449.8896127,
+      "BW_Hz": 5754844.500808369,
+      "Q": 416.7076016654766
+    }
+  },
+  "partial_insertion": {
+    "window_fill_fraction": [
+      0.25,
+      0.75
+    ],
+    "n_points_total": 10,
+    "n_points_used": 8,
+    "depth": [
+      5.0,
+      7.222222222222222,
+      9.444444444444445,
+      11.666666666666668,
+      13.88888888888889,
+      16.11111111111111,
+      18.333333333333336,
+      20.555555555555557,
+      22.77777777777778,
+      25.0
+    ],
+    "v_effective": [
+      0.00035838742233002885,
+      0.0005176707211433751,
+      0.0006769540199567212,
+      0.0008362373187700674,
+      0.0009955206175834136,
+      0.0011548039163967595,
+      0.001314087215210106,
+      0.001473370514023452,
+      0.001632653812836798,
+      0.0017919371116501442
+    ],
+    "x_freq_shift": [
+      0.001197265703104398,
+      0.0019310213752077867,
+      0.0024033482017505074,
+      0.002677336793748959,
+      0.0036937765022412943,
+      0.0044792515931240205,
+      0.004071105457429821,
+      0.005463765275176527,
+      0.006618607687137357,
+      0.008038021131753871
+    ],
+    "y_inv_q_shift": [
+      0.00010091148496285522,
+      0.00019782283151874476,
+      0.0003194350700232761,
+      0.0004747130871552231,
+      0.0006566340901951424,
+      0.0008039198717146916,
+      0.0009449941792493639,
+      0.0011751821435983453,
+      0.0013794613938387197,
+      0.0016371643912027074
+    ],
+    "used": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "slope_r": 4.787134265178056,
+    "slope_r_err": 0.5315620104833307,
+    "slope_i": 0.5771599200501762,
+    "slope_i_err": 0.02254104914135344,
+    "beta_r": 0.0012288050862594314,
+    "beta_r_err": 0.0006842618555470967,
+    "beta_i": 0.00025050348987931193,
+    "beta_i_err": 2.9016332633357888e-05,
+    "r2_r": 0.9311169841976183,
+    "r2_i": 0.99093118238626,
+    "eps_real": 3.5804005953435927,
+    "eps_real_err": 0.28652693915243793,
+    "eps_imag": 0.3111055004534202,
+    "eps_imag_err": 0.012150262224127144,
+    "tan_delta": 0.08689125481043135,
+    "single_point_eps_real": [
+      2.8007329330923794,
+      3.0106894711091883,
+      2.9136788202057815,
+      2.725778231294454,
+      3.000008679790877,
+      3.0907819100632277,
+      2.669935462630498,
+      2.998902377301178,
+      3.1851641033620317,
+      3.4178976030652333
+    ],
+    "single_point_eps_imag": [
+      0.07588734640468726,
+      0.10299220132582584,
+      0.12717593886088777,
+      0.15299709656174992,
+      0.1777684544584665,
+      0.1876229867844007,
+      0.19381459267137122,
+      0.2149684569424271,
+      0.22771779672394163,
+      0.2462357209832967
+    ]
+  },
+  "material_result": {
+    "eps_real": 3.5804005953435927,
+    "eps_real_err": 0.28652693915243793,
+    "eps_imag": 0.3111055004534202,
+    "eps_imag_err": 0.012150262224127144,
+    "tan_delta": 0.08689125481043135
+  },
+  "resonance_method_comparison": {
+    "5.000": [
+      {
+        "baseline_abs_s11": 0.9890692950218636,
+        "half_absorbed_power": {
+          "f0_Hz": 2440681614.3078794,
+          "BW_Hz": 1712397.2052593231,
+          "Q": 1425.3010965048065,
+          "s11_min_dB": -13.475452547659476
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2440681614.3078794,
+          "BW_Hz": 1675656.829603672,
+          "Q": 1456.552183710045,
+          "s11_min_dB": -13.379986941612628
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9894648036862851,
+        "half_absorbed_power": {
+          "f0_Hz": 2440678740.50817,
+          "BW_Hz": 1691922.5785570145,
+          "Q": 1442.5475322811433,
+          "s11_min_dB": -13.499936725027634
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2440678740.50817,
+          "BW_Hz": 1658282.4382514954,
+          "Q": 1471.8112453036883,
+          "s11_min_dB": -13.407943735053534
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9890942264096988,
+        "half_absorbed_power": {
+          "f0_Hz": 2440675792.9090977,
+          "BW_Hz": 1700397.8625488281,
+          "Q": 1435.3557168383068,
+          "s11_min_dB": -13.492815761233041
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2440675792.9090977,
+          "BW_Hz": 1661961.1465911865,
+          "Q": 1468.55165532306,
+          "s11_min_dB": -13.397569096927795
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "7.222": [
+      {
+        "baseline_abs_s11": 0.9892607664203129,
+        "half_absorbed_power": {
+          "f0_Hz": 2437360219.0193486,
+          "BW_Hz": 1964398.6450986862,
+          "Q": 1240.7665954671345,
+          "s11_min_dB": -9.984143601972056
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2437360219.0193486,
+          "BW_Hz": 1918643.6637215614,
+          "Q": 1270.3558587276395,
+          "s11_min_dB": -9.890359312378296
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.989569075309382,
+        "half_absorbed_power": {
+          "f0_Hz": 2437362682.368842,
+          "BW_Hz": 1974722.2147378922,
+          "Q": 1234.2812898837808,
+          "s11_min_dB": -9.952981732478602
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2437362682.368842,
+          "BW_Hz": 1930909.5439081192,
+          "Q": 1262.2873453904385,
+          "s11_min_dB": -9.861904029323036
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9894531961979314,
+        "half_absorbed_power": {
+          "f0_Hz": 2437364227.6284537,
+          "BW_Hz": 1968560.3045864105,
+          "Q": 1238.1455736711798,
+          "s11_min_dB": -9.93080238909167
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2437364227.6284537,
+          "BW_Hz": 1921149.612233162,
+          "Q": 1268.7008924803306,
+          "s11_min_dB": -9.838707503674886
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "9.444": [
+      {
+        "baseline_abs_s11": 0.9893954849818907,
+        "half_absorbed_power": {
+          "f0_Hz": 2433321604.099281,
+          "BW_Hz": 2324328.3414030075,
+          "Q": 1046.89236918674,
+          "s11_min_dB": -7.548863384558764
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2433321604.099281,
+          "BW_Hz": 2264921.4860053062,
+          "Q": 1074.3514153291846,
+          "s11_min_dB": -7.4562618679292765
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9890601180527746,
+        "half_absorbed_power": {
+          "f0_Hz": 2433323728.0851955,
+          "BW_Hz": 2321121.54777956,
+          "Q": 1048.3396401248228,
+          "s11_min_dB": -7.549438165574941
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2433323728.0851955,
+          "BW_Hz": 2261894.9456243515,
+          "Q": 1075.789895897895,
+          "s11_min_dB": -7.453891968096421
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.989482401866483,
+        "half_absorbed_power": {
+          "f0_Hz": 2433326676.7944775,
+          "BW_Hz": 2320573.7815184593,
+          "Q": 1048.5883690378673,
+          "s11_min_dB": -7.56385433110843
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2433326676.7944775,
+          "BW_Hz": 2263192.895760536,
+          "Q": 1075.1742290074521,
+          "s11_min_dB": -7.472015823124153
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "11.667": [
+      {
+        "baseline_abs_s11": 0.9891880542513267,
+        "half_absorbed_power": {
+          "f0_Hz": 2428355187.5813875,
+          "BW_Hz": 2777835.716240883,
+          "Q": 874.189633815915,
+          "s11_min_dB": -5.738998896603437
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2428355187.5813875,
+          "BW_Hz": 2709784.2893590927,
+          "Q": 896.1433561767872,
+          "s11_min_dB": -5.644576157463911
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9889258106528471,
+        "half_absorbed_power": {
+          "f0_Hz": 2428357932.250007,
+          "BW_Hz": 2785969.653142929,
+          "Q": 871.6383286912367,
+          "s11_min_dB": -5.7541105001023185
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2428357932.250007,
+          "BW_Hz": 2701004.0337848663,
+          "Q": 899.0574993133922,
+          "s11_min_dB": -5.657384739879485
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9895256673921773,
+        "half_absorbed_power": {
+          "f0_Hz": 2428358227.258098,
+          "BW_Hz": 2794646.1964235306,
+          "Q": 868.9322571013847,
+          "s11_min_dB": -5.7332500800053054
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2428358227.258098,
+          "BW_Hz": 2717171.8721408844,
+          "Q": 893.707995491935,
+          "s11_min_dB": -5.641791357821005
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "13.889": [
+      {
+        "baseline_abs_s11": 0.9891442931461192,
+        "half_absorbed_power": {
+          "f0_Hz": 2423257137.9534163,
+          "BW_Hz": 3300160.308423519,
+          "Q": 734.2846745257057,
+          "s11_min_dB": -4.607919245927393
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2423257137.9534163,
+          "BW_Hz": 3180918.5080709457,
+          "Q": 761.8105059293047,
+          "s11_min_dB": -4.513112239573276
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9893955059440355,
+        "half_absorbed_power": {
+          "f0_Hz": 2423288803.548708,
+          "BW_Hz": 3287347.7498164177,
+          "Q": 737.1562085830551,
+          "s11_min_dB": -4.588957666779876
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2423288803.548708,
+          "BW_Hz": 3186662.9933481216,
+          "Q": 760.4471538430986,
+          "s11_min_dB": -4.496356334176774
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9896543214340505,
+        "half_absorbed_power": {
+          "f0_Hz": 2423296741.108364,
+          "BW_Hz": 3302537.7449378967,
+          "Q": 733.7680681538837,
+          "s11_min_dB": -4.607217098260436
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2423296741.108364,
+          "BW_Hz": 3195211.9724140167,
+          "Q": 758.4150166029634,
+          "s11_min_dB": -4.516887606178588
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "16.111": [
+      {
+        "baseline_abs_s11": 0.9892167396117467,
+        "half_absorbed_power": {
+          "f0_Hz": 2419348144.677986,
+          "BW_Hz": 3681042.6670804024,
+          "Q": 657.2453414664922,
+          "s11_min_dB": -3.998889043214234
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2419348144.677986,
+          "BW_Hz": 3559787.911242962,
+          "Q": 679.6326649227899,
+          "s11_min_dB": -3.9047181816233545
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9893047667825751,
+        "half_absorbed_power": {
+          "f0_Hz": 2419350160.2332344,
+          "BW_Hz": 3710667.250893116,
+          "Q": 651.9986828921197,
+          "s11_min_dB": -3.992764569102346
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2419350160.2332344,
+          "BW_Hz": 3585574.0195646286,
+          "Q": 674.7455629230043,
+          "s11_min_dB": -3.899366602108768
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9891754767902186,
+        "half_absorbed_power": {
+          "f0_Hz": 2419374067.5185375,
+          "BW_Hz": 3714639.915919304,
+          "Q": 651.3078312517373,
+          "s11_min_dB": -3.9733201358546633
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2419374067.5185375,
+          "BW_Hz": 3581700.5400481224,
+          "Q": 675.4819506730821,
+          "s11_min_dB": -3.878786955497029
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "18.333": [
+      {
+        "baseline_abs_s11": 0.9892683128640372,
+        "half_absorbed_power": {
+          "f0_Hz": 2414845175.381005,
+          "BW_Hz": 4155750.824774742,
+          "Q": 581.0851702139526,
+          "s11_min_dB": -3.4364372315693497
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2414845175.381005,
+          "BW_Hz": 3979105.6049370766,
+          "Q": 606.8813987708154,
+          "s11_min_dB": -3.342719200872705
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9890139007319872,
+        "half_absorbed_power": {
+          "f0_Hz": 2414926037.072926,
+          "BW_Hz": 4167202.0693073273,
+          "Q": 579.5077840980088,
+          "s11_min_dB": -3.434348334696893
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2414926037.072926,
+          "BW_Hz": 4017943.74377203,
+          "Q": 601.0353033977034,
+          "s11_min_dB": -3.338396248920983
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9889490239805763,
+        "half_absorbed_power": {
+          "f0_Hz": 2414949763.393777,
+          "BW_Hz": 4165206.427517891,
+          "Q": 579.7911353058392,
+          "s11_min_dB": -3.436403716187073
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2414949763.393777,
+          "BW_Hz": 4010132.1194052696,
+          "Q": 602.2120198254044,
+          "s11_min_dB": -3.339881839849374
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "20.556": [
+      {
+        "baseline_abs_s11": 0.9892509934089128,
+        "half_absorbed_power": {
+          "f0_Hz": 2409794851.6233506,
+          "BW_Hz": 4791424.0304608345,
+          "Q": 502.9391755568707,
+          "s11_min_dB": -2.9308206642701613
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2409794851.6233506,
+          "BW_Hz": 4555646.158932686,
+          "Q": 528.9688372522608,
+          "s11_min_dB": -2.836950565433133
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9889761896598377,
+        "half_absorbed_power": {
+          "f0_Hz": 2409775769.261065,
+          "BW_Hz": 4803333.577782631,
+          "Q": 501.688198464345,
+          "s11_min_dB": -2.921153805171989
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2409775769.261065,
+          "BW_Hz": 4601282.764322281,
+          "Q": 523.7182526460094,
+          "s11_min_dB": -2.824870520354732
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9888568691629892,
+        "half_absorbed_power": {
+          "f0_Hz": 2409791610.6858315,
+          "BW_Hz": 4782059.53005743,
+          "Q": 503.9233818690858,
+          "s11_min_dB": -2.927187842792551
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2409791610.6858315,
+          "BW_Hz": 4577148.817916393,
+          "Q": 526.4831244405148,
+          "s11_min_dB": -2.82985653760389
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "22.778": [
+      {
+        "baseline_abs_s11": 0.989023150296517,
+        "half_absorbed_power": {
+          "f0_Hz": 2404167879.3384132,
+          "BW_Hz": 5385553.12970829,
+          "Q": 446.41057685910073,
+          "s11_min_dB": -2.529440941791483
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2404167879.3384132,
+          "BW_Hz": 5077970.716520309,
+          "Q": 473.4505206020319,
+          "s11_min_dB": -2.4335700887676714
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9891938708848618,
+        "half_absorbed_power": {
+          "f0_Hz": 2404042829.4874735,
+          "BW_Hz": 5340292.8880028725,
+          "Q": 450.17059549078806,
+          "s11_min_dB": -2.5472385989952873
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2404042829.4874735,
+          "BW_Hz": 5090940.704923153,
+          "Q": 472.21976621386756,
+          "s11_min_dB": -2.452866934561114
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9888407211478484,
+        "half_absorbed_power": {
+          "f0_Hz": 2404052199.6212535,
+          "BW_Hz": 5311473.733075142,
+          "Q": 452.61490886247844,
+          "s11_min_dB": -2.5528740390315505
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2404052199.6212535,
+          "BW_Hz": 5136475.842222691,
+          "Q": 468.03533657445485,
+          "s11_min_dB": -2.4554008922609634
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ],
+    "25.000": [
+      {
+        "baseline_abs_s11": 0.9891827149146978,
+        "half_absorbed_power": {
+          "f0_Hz": 2398090028.037316,
+          "BW_Hz": 6009273.563208103,
+          "Q": 399.06487910946004,
+          "s11_min_dB": -2.2097566342777193
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2398090028.037316,
+          "BW_Hz": 5765857.585429668,
+          "Q": 415.91211584852414,
+          "s11_min_dB": -2.115287011217926
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9901342120233813,
+        "half_absorbed_power": {
+          "f0_Hz": 2398114561.835834,
+          "BW_Hz": 5951866.998044014,
+          "Q": 402.9180360757282,
+          "s11_min_dB": -2.211198579982464
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2398114561.835834,
+          "BW_Hz": 5702725.752492428,
+          "Q": 420.52075900506287,
+          "s11_min_dB": -2.1250799182074553
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      },
+      {
+        "baseline_abs_s11": 0.9897640123572917,
+        "half_absorbed_power": {
+          "f0_Hz": 2398057759.7956886,
+          "BW_Hz": 6000604.49395895,
+          "Q": 399.6360303715917,
+          "s11_min_dB": -2.218014955268771
+        },
+        "half_absorbed_power_normalised": {
+          "f0_Hz": 2398057759.7956886,
+          "BW_Hz": 5796751.588726521,
+          "Q": 413.689930142843,
+          "s11_min_dB": -2.128648133117054
+        },
+        "one_port_fit": {
+          "error": "fitted resonance lies outside the sweep - widen the span."
+        },
+        "difference": null
+      }
+    ]
+  },
+  "coupling_drift": null
+}
